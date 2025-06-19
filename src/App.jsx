@@ -7,7 +7,6 @@ import Education from './pages/Educations/Education'
 import WorkExp from './pages/WorkExp/WorkExp'
 import Contact from './pages/Contact/Contact'
 import ScrollToTop from 'react-scroll-to-top'
-import { Bounce } from 'react-reveal'
 import MobileNav from './components/MobileNav/MobileNav'
 const App = () => {
   return (
@@ -23,11 +22,9 @@ const App = () => {
         <Contact />
       </div>
       <div className="footer mb-3 ms-3">
-        <Bounce>
         <h4 className="text-center">
           Made with 😍 RiTik  &copy; 2025
         </h4>
-        </Bounce>
       </div>
       <ScrollToTop smooth color='#f29f67' style={{backgroundColor: '#1e1e2c', borderRadius:"80px"}} />
     </>

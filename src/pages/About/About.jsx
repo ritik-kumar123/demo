@@ -1,18 +1,14 @@
 import React from "react";
 import "./About.css";
-import { Zoom} from "react-reveal";
 const About = () => {
   return (
     <>
       <div className="about"  id="aboutpage">
         <div className="row">
           <div className="col-md-6 col-xl-6  col-lg-6 col-xs-12 about-img">
-          <Zoom>
             <img src="/myimg2.png" alt="profile pic" />
-            </Zoom>  
           </div>
           <div className="col-md-6 col-xl-6  col-lg-6 col-xs-12 about-content">
-         <Zoom>
 
             <h1>About Me</h1>
             <p>
@@ -28,7 +24,6 @@ const About = () => {
               can find me exploring UI/UX trends, watching tech videos, or
               solving algorithm challenges.
             </p>
-         </Zoom>
           </div>
         </div>
       </div>

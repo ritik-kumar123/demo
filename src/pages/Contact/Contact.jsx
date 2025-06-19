@@ -1,12 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
-import {Bounce } from "react-reveal";
 
 const Contact = () => {
   return (
     <>
-    <Bounce>
       
       <div className="contact mb-5" id="contactpage">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase main-heading">
@@ -85,7 +83,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-                    </Bounce>
     </>
   );
 };

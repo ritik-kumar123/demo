@@ -1,6 +1,5 @@
 import React from "react";
 import "./Project.css";
-import { Zoom } from "react-reveal";
 const projects = [
   {
     title: "NETFLIX CLONE",
@@ -41,7 +40,6 @@ const Project = () => {
         <div className="row" id="ads">
           {projects.map((project, index) => (
             <div className="col-md-4" key={index}>
-              <Zoom>
               <div className="card rounded">
                 <div className="card-image">
                   <span className="card-notify-badge">{project.badge}</span>
@@ -68,7 +66,6 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-          </Zoom>
             </div>
           ))}
         </div>
